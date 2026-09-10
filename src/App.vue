@@ -4,9 +4,9 @@ import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
-  <div class="h-screen flex flex-col">
+  <div class="h-screen flex flex-col bg-bg">
     <Navbar></Navbar>
-    <div class="flex flex-grow">
+    <div class="flex flex-grow items-center justify-center">
       <RouterView></RouterView>
     </div>
   </div>
