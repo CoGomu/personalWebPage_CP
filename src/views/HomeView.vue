@@ -38,16 +38,17 @@
           Wir können den Weg nicht immer verändern. Aber wir können entscheiden, wie wir ihn
           fahren.
           Erfolgreiche Führung bedeutet:
-          <ul class="pb-5 list-disc mx-auto max-w-fit">
-            <li>den Überblick zu behalten</li>
-            <li>mit Unsicherheit konstruktiv umzugehen</li>
-            <li>die eigene Energie gezielt einzusetzen</li>
-            <li>Menschen mitzunehmen</li>
-            <li>auch in anspruchsvollen Situationen handlungsfähig zu bleiben</li>
-          </ul>
+        </p>
+        <ul class="pb-5 list-disc mx-auto max-w-fit">
+          <li>den Überblick zu behalten</li>
+          <li>mit Unsicherheit konstruktiv umzugehen</li>
+          <li>die eigene Energie gezielt einzusetzen</li>
+          <li>Menschen mitzunehmen</li>
+          <li>auch in anspruchsvollen Situationen handlungsfähig zu bleiben</li>
+        </ul>
+        <p>
           Coaching schafft den Raum, den eigenen Kurs zu reflektieren und den persönlichen
           Führungsrhythmus zu finden.
-
         </p>
         <div class="p-5">
           <router-link
