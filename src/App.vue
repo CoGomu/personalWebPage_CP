@@ -7,14 +7,13 @@ const { isDark, toggleDarkMode } = useDarkMode()
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col bg-bg text-primary dark:bg-bg-dark dark:text-primary-dark transition-colors duration-300">
-    <Navbar :is-dark="isDark" @toggle="toggleDarkMode"></Navbar>
-    <div class="flex flex-grow justify-center">
-      <div class="w-full max-w-7xl px-6">
-        <RouterView></RouterView>
+  <div class="h-screen flex flex-col bg-bg text-primary dark:bg-bg-dark dark:text-primary-dark transition-colors duration-300">
+    <Navbar :is-dark="isDark" @toggle="toggleDarkMode" />
+
+    <div class="flex-1 min-h-0 overflow-y-auto">
+      <div class="w-full max-w-7xl mx-auto px-6 min-h-full flex flex-col">
+        <RouterView />
       </div>
     </div>
   </div>
 </template>
-
-<style scoped></style>
