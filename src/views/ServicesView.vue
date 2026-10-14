@@ -85,9 +85,9 @@
     <section class="flex items-center justify-center bg-bg dark:bg-bg-dark">
       <div class="max-w-4xl mx-auto px-6 py-20 text-left">
         <h2 class="text-3xl font-bold text-center text-primary dark:text-primary-dark mb-8">Grober Ablauf des Coachings</h2>
-        <div class="space-y-4">
+        <div class="space-y-2">
           <!-- Step 1 -->
-          <div class="relative flex items-start gap-6 p-5 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200 mb-4">
+          <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
             <div class="flex-1 pt-1">
               <h3 class="text-lg font-semibold text-primary dark:text-primary-dark">1. Standortbestimmung</h3>
               <p class="text-sm text-secondary dark:text-secondary-secondary mt-1 leading-relaxed">
@@ -97,7 +97,7 @@
           </div>
 
           <!-- Step 2 -->
-          <div class="relative flex items-start gap-6 p-5 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200 mb-4">
+          <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
             <div class="flex-1 pt-1">
               <h3 class="text-lg font-semibold text-primary dark:text-primary-dark">2. Zielklärung</h3>
               <p class="text-sm text-secondary dark:text-secondary-secondary mt-1 leading-relaxed">
@@ -107,7 +107,7 @@
           </div>
 
           <!-- Step 3 -->
-          <div class="relative flex items-start gap-6 p-5 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200 mb-4">
+          <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
             <div class="flex-1 pt-1">
               <h3 class="text-lg font-semibold text-primary dark:text-primary-dark">3. Reflexion & Entwicklung</h3>
               <p class="text-sm text-secondary dark:text-secondary-secondary mt-1 leading-relaxed">
@@ -117,7 +117,7 @@
           </div>
 
           <!-- Step 4 -->
-          <div class="relative flex items-start gap-6 p-5 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200 mb-4">
+          <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
             <div class="flex-1 pt-1">
               <h3 class="text-lg font-semibold text-primary dark:text-primary-dark">4. Umsetzung</h3>
               <p class="text-sm text-secondary dark:text-secondary-secondary mt-1 leading-relaxed">
@@ -127,7 +127,7 @@
           </div>
 
           <!-- Step 5 -->
-          <div class="relative flex items-start gap-6 p-5 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
+          <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
             <div class="flex-1 pt-1">
               <h3 class="text-lg font-semibold text-primary dark:text-primary-dark">5. Nachhaltige Verankerung</h3>
               <p class="text-sm text-secondary dark:text-secondary-secondary mt-1 leading-relaxed">
