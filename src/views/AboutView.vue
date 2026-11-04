@@ -67,11 +67,16 @@
           <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Magister Pflegewissenschaft</h3>
             <p class="text-accent text-sm mb-2">UMIT</p>
-            <p class="text-secondary dark:text-secondary">Details</p>
+            <p class="text-secondary dark:text-secondary">Schwerpunkt Pädagogik</p>
           </div>
           <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Universitätslehrgang für leitendes Pflegepersonal</h3>
-            <p class="text-accent text-sm mb-2">Institution Name</p>
+            <p class="text-accent text-sm mb-2">JKU</p>
+            <p class="text-secondary dark:text-secondary">Details</p>
+          </div>
+          <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
+            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Universitätslehrgang für lehrendes Pflegepersonal</h3>
+            <p class="text-accent text-sm mb-2">JKU</p>
             <p class="text-secondary dark:text-secondary">Details</p>
           </div>
           <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
@@ -82,6 +87,11 @@
           <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildung Gewaltfreie Kommunikation</h3>
             <p class="text-accent text-sm mb-2">Institution Name</p>
+            <p class="text-secondary dark:text-secondary">Details</p>
+          </div>
+          <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
+            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildung Gewaltfreie Kommunikation</h3>
+            <p class="text-accent text-sm mb-2">TODO ... Akademie</p>
             <p class="text-secondary dark:text-secondary">Details</p>
           </div>
         </div>

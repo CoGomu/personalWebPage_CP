@@ -22,7 +22,8 @@ export default {
           dark: '#2a2a2a',
         },
         primary: {
-          DEFAULT: '#1a1a1a',
+          // DEFAULT: '#1a1a1a',
+          DEFAULT: '#14467b',
           dark: '#f0f0f0',
         },
         primaryDark: {
@@ -30,7 +31,8 @@ export default {
           dark: '#f0f0f0',
         },
         secondary: {
-          DEFAULT: '#6b7280',
+          // DEFAULT: '#6b7280',
+          DEFAULT: '#14467b',
           dark: '#a0a0a0',
         },
         accent: '#818cf8',
@@ -38,8 +40,13 @@ export default {
         goldbeige: '#d8c3a5',
         lightgoldbeige: '#FFFFE0',
       },
+      // fontFamily: {
+      //   sans: ['Inter', 'system-ui', 'sans-serif'],
+      // },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        sans: ['Montserrat', 'system-ui', 'sans-serif'],
+        visby: ['Visby CF', 'sans-serif'],
       },
       boxShadow: {
         card: '0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06)',

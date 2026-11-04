@@ -7,7 +7,7 @@
           Mein Angebot <br>
         </h1>
         <h2 class="text-4xl md:text-4xl p-5">
-          Klar. Wertschätzend. Lösungsorientiert. <br>
+          Klar. Lösungsorientiert. Wertschätzend. <br>
         </h2>
 
         <p class="text-lg text-secondary dark:text-secondary leading-relaxed">
@@ -32,8 +32,8 @@
     <!-- 2. Services List Section -->
     <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
       <div class="max-w-6xl mx-auto px-6 py-20 text-center">
-        <h2 class="text-3xl font-bold text-primary dark:text-primary-dark mb-8">Was ich ihnen anbiete:</h2>
-        <div class="grid md:grid-cols-3 gap-8">
+        <!-- <h2 class="text-3xl font-bold text-primary dark:text-primary-dark mb-8">Was ich ihnen anbiete:</h2> -->
+        <div class="grid md:grid-cols-2 gap-8">
           <div class="bg-bg dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Führungskräfte-Coaching</h3>
             <p class="text-secondary dark:text-secondary">
@@ -61,20 +61,6 @@
               <li>Vertrauens- und Feedbackkultur</li>
               <li>Entwicklung von Führungsteams</li>
               <li>Stärkung von Selbstverantwortung</li>
-            </ul>
-          </div>
-          <div class="bg-bg dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
-            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Persönliches Coaching</h3>
-            <p class="text-secondary dark:text-secondary">
-              Begleitung bei:
-            </p>
-            <ul class="p-5 list-disc mx-auto max-w-fit text-left">
-              <li>beruflicher Neuorientierung</li>
-              <li>persönlichen Veränderungsprozessen</li>
-              <li>Rollenklärung</li>
-              <li>Work-Life-Balance</li>
-              <li>Selbstreflexion und Potenzialentwicklung</li>
-              <li>persönlichen Entscheidungssituationen</li>
             </ul>
           </div>
         </div>

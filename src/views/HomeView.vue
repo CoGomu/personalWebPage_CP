@@ -4,9 +4,6 @@
     <section class="flex items-center justify-center bg-gradient-light dark:bg-gradient-dark">
       <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-5 items-center">
         <div class="text-center md:text-left col-span-3">
-          <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
-            Führung bedeutet nicht, den Weg zu ebnen. <br>
-            Sondern zu entscheiden, mit welchem Rhythmus man ihn fährt.</h1>
           <p class="text-lg text-secondary dark:text-secondary mb-4">
             Führungskräfte stehen täglich vor anspruchsvollen Entscheidungen, komplexen Situationen und
             herausfordernden Gesprächen. Erfolg entsteht nicht auf perfekten Wegen, sondern im bewussten
@@ -14,6 +11,10 @@
             Ich begleite Führungskräfte dabei, Klarheit zu gewinnen, wirksam zu handeln und ihren eigenen
             Führungsstil weiterzuentwickeln.
           </p>
+          <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
+            Führung bedeutet nicht, den Weg zu ebnen. <br>
+            Sondern zu antizipieren und zu entscheiden, mit welchem Rhythmus man ihn fährt.
+          </h1>
         </div>
         <div class="flex justify-center md:justify-end col-span-2">
           <div class=" w-80 h-96 bg-border dark:border-border-dark rounded-xl overflow-hidden">

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-display: swap;
+}
+
 @layer base {
   html {
     @apply bg-bg text-primary transition-colors duration-300;

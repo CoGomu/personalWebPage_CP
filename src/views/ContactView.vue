@@ -5,11 +5,13 @@
       <!-- 1. Headline Section -->
       <section class="flex items-center justify-center bg-gradient-light dark:bg-gradient-dark">
         <div class="max-w-4xl mx-auto px-6 py-12 text-center">
-          <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">Lassen Sie uns ins Gespräch kommen!</h1>
-          <p class="text-lg text-secondary dark:text-secondary leading-relaxed">
+          <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
             Sie stehen vor einer wichtigen Führungsentscheidung, einer Veränderung oder möchten Ihre
             Führungskompetenz gezielt weiterentwickeln?
             Ich freue mich auf ein persönliches Kennenlernen.
+          </h1>
+          <p class="text-lg text-secondary dark:text-secondary leading-relaxed">
+            Lassen Sie uns ins Gespräch kommen!
           </p>
         </div>
       </section>
@@ -23,8 +25,8 @@
           <div class="space-y-3 text-secondary dark:text-secondary">
             <p>
               <span class="font-medium text-primary dark:text-primary-dark">Email:</span>
-              <a href="mailto:christian.peinbauer@ooeg.at" class="text-accent hover:text-accent-hover transition-colors duration-200 ml-2">
-                christian.peinbauer@ooeg.at
+              <a href="mailto:christian.peinbauer@gmx.at" class="text-accent hover:text-accent-hover transition-colors duration-200 ml-2">
+                christian.peinbauer@gmx.at
               </a>
             </p>
             <p>
