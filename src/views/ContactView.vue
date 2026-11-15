@@ -3,7 +3,7 @@
     <!-- Main Content -->
     <main class="flex-col flex-auto">
       <!-- 1. Headline Section -->
-      <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
+      <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border-dark dark:border-border-dark">
         <div class="max-w-4xl mx-auto px-6 py-12 text-center">
           <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
             Sie stehen vor einer wichtigen Führungsentscheidung, einer Veränderung oder möchten Ihre
@@ -20,7 +20,7 @@
       <section class="flex items-start justify-center bg-surface dark:bg-surface-dark">
       <div class="max-w-2xl mx-auto px-6 py-12 text-center">
         <h2 class="text-2xl font-bold text-primary dark:text-primary-dark mb-10">Kontakt Informationen:</h2>
-        <div class="bg-bg dark:bg-bg-dark p-5 rounded-xl shadow-card dark:shadow-card-dark text-left">
+        <div class="bg-white dark:bg-bg-dark p-5 rounded-xl shadow-card dark:shadow-card-dark text-left">
           <h3 class="text-xl font-bold text-primary dark:text-primary-dark mb-4">Mag. Christian Peinbauer</h3>
           <div class="space-y-3 text-secondary dark:text-secondary-dark">
             <p>

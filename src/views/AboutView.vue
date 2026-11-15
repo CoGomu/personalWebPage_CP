@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <!-- 1. Introduction Section -->
-    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
+    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border-dark dark:border-border-dark">
       <div class="max-w-6xl mx-auto px-6 py-20">
         <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <!-- Text Content (Left) -->
@@ -36,21 +36,21 @@
     </section>
 
     <!-- 2. Professional Background Section -->
-    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
+    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border-dark dark:border-border-dark">
       <div class="max-w-4xl mx-auto px-6 py-20">
         <h2 class="text-3xl font-bold text-primary dark:text-primary-dark mb-8 text-center">KURZVITA</h2>
         <div class="space-y-6">
-          <div class="bg-bg dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
+          <div class="bg-white dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">2012-2026</p>
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Direktor der OÖ Gesundheits- und Krankenpflegeschulen Freistadt, Rohrbach und Schärding.</h3>
             <p class="text-secondary dark:text-secondary-dark">Gesamtverantwortung für Strategie, Personal, Organisation und Weiterentwicklung der Ausbildungsstandorte.</p>
           </div>
-          <div class="bg-bg dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
+          <div class="bg-white dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">2003 - 2012</p>
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildungskoordinator der Akademie für Fach-, Weiter- und Sonderausbildungen am Krankenhaus der Barmherzigen Schwestern</h3>
             <p class="text-secondary dark:text-secondary-dark">Description of your role and responsibilities placeholder.</p>
           </div>
-          <div class="bg-bg dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
+          <div class="bg-white dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">1994 - 2002</p>
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Stationsleitung und stellvertretende Stationsleitung einer operativen Intensivstation.</h3>
             <p class="text-secondary dark:text-secondary">Description of your role and responsibilities placeholder.</p>
@@ -60,36 +60,36 @@
     </section>
 
     <!-- 3. Qualifications Section -->
-    <section class="flex items-center justify-center bg-bg dark:bg-bg-dark">
+    <section class="flex items-center justify-center bg-bg dark:bg-bg-dark border-b border-border-dark dark:border-border-dark">
       <div class="max-w-4xl mx-auto px-6 py-20">
         <h2 class="text-3xl font-bold text-primary dark:text-primary-dark mb-8 text-center">Qualifikationen</h2>
         <div class="grid md:grid-cols-2 gap-6">
-          <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Magister Pflegewissenschaft</h3>
             <p class="text-accent text-sm mb-2">UMIT</p>
             <p class="text-secondary dark:text-secondary-dark">Schwerpunkt Pädagogik</p>
           </div>
-          <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Universitätslehrgang für leitendes Pflegepersonal</h3>
             <p class="text-accent text-sm mb-2">JKU</p>
             <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
-          <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Universitätslehrgang für lehrendes Pflegepersonal</h3>
             <p class="text-accent text-sm mb-2">JKU</p>
             <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
-          <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Sonderausbildung Intensivpflege</h3>
             <p class="text-accent text-sm mb-2">Institution Name</p>
             <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
-          <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildung Gewaltfreie Kommunikation</h3>
             <p class="text-accent text-sm mb-2">Institution Name</p>
             <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
-          <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildung Gewaltfreie Kommunikation</h3>
             <p class="text-accent text-sm mb-2">TODO ... Akademie</p>
             <p class="text-secondary dark:text-secondary-dark">Details</p>
