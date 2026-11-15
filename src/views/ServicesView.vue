@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <!-- 1. Headline Section -->
-    <section class="flex items-center justify-center bg-gradient-light dark:bg-gradient-dark">
+    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
       <div class="max-w-4xl mx-auto px-6 py-20 text-center">
         <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
           Mein Angebot <br>
@@ -10,7 +10,7 @@
           Klar. Lösungsorientiert. Wertschätzend. <br>
         </h2>
 
-        <p class="text-lg text-secondary dark:text-secondary leading-relaxed">
+        <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed">
           Mein Coaching basiert auf einem systemisch-konstruktivistischen Ansatz. <br>
           Ich begleite Menschen dabei,
         </p>
@@ -36,7 +36,7 @@
         <div class="grid md:grid-cols-2 gap-8">
           <div class="bg-bg dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Führungskräfte-Coaching</h3>
-            <p class="text-secondary dark:text-secondary">
+            <p class="text-secondary dark:text-secondary-dark">
               Unterstützung bei:
             </p>
             <ul class="p-5 list-disc mx-auto max-w-fit text-left">
@@ -51,7 +51,7 @@
           </div>
           <div class="bg-bg dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Leadership & Organisationsentwicklung</h3>
-            <p class="text-secondary dark:text-secondary">
+            <p class="text-secondary dark:text-secondary-dark">
               Gemeinsam gestalten wir:
             </p>
             <ul class="p-5 list-disc mx-auto max-w-fit text-left">
@@ -76,7 +76,7 @@
           <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
             <div class="flex-1 pt-1">
               <h3 class="text-lg font-semibold text-primary dark:text-primary-dark">1. Standortbestimmung</h3>
-              <p class="text-sm text-secondary dark:text-secondary-secondary mt-1 leading-relaxed">
+              <p class="text-sm text-secondary-dark dark:text-secondary-secondary mt-1 leading-relaxed">
                 Wo stehen Sie aktuell? Welche Herausforderungen beschäftigen Sie?
               </p>
             </div>
@@ -86,7 +86,7 @@
           <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
             <div class="flex-1 pt-1">
               <h3 class="text-lg font-semibold text-primary dark:text-primary-dark">2. Zielklärung</h3>
-              <p class="text-sm text-secondary dark:text-secondary-secondary mt-1 leading-relaxed">
+              <p class="text-sm text-secondary-dark dark:text-secondary-secondary mt-1 leading-relaxed">
                 Worum soll es konkret gehen? Welche Ergebnisse möchten Sie erreichen?
               </p>
             </div>
@@ -96,7 +96,7 @@
           <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
             <div class="flex-1 pt-1">
               <h3 class="text-lg font-semibold text-primary dark:text-primary-dark">3. Reflexion & Entwicklung</h3>
-              <p class="text-sm text-secondary dark:text-secondary-secondary mt-1 leading-relaxed">
+              <p class="text-sm text-secondary-dark dark:text-secondary-secondary mt-1 leading-relaxed">
                 Gemeinsame Analyse, Perspektivenwechsel und Entwicklung neuer Handlungsmöglichkeiten.
               </p>
             </div>
@@ -106,7 +106,7 @@
           <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
             <div class="flex-1 pt-1">
               <h3 class="text-lg font-semibold text-primary dark:text-primary-dark">4. Umsetzung</h3>
-              <p class="text-sm text-secondary dark:text-secondary-secondary mt-1 leading-relaxed">
+              <p class="text-sm text-secondary-dark dark:text-secondary-secondary mt-1 leading-relaxed">
                 Transfer in die Praxis und konkrete Begleitung im Führungsalltag.
               </p>
             </div>
@@ -116,7 +116,7 @@
           <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
             <div class="flex-1 pt-1">
               <h3 class="text-lg font-semibold text-primary dark:text-primary-dark">5. Nachhaltige Verankerung</h3>
-              <p class="text-sm text-secondary dark:text-secondary-secondary mt-1 leading-relaxed">
+              <p class="text-sm text-secondary-dark dark:text-secondary-secondary mt-1 leading-relaxed">
                 Sicherung der Entwicklung und Vorbereitung zukünftiger Herausforderungen.
               </p>
             </div>
@@ -126,7 +126,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-6 text-secondary dark:text-secondary text-sm border-t border-border dark:border-border-dark">
+    <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm border-t border-border dark:border-border-dark">
       <p>&copy; {{ currentYear }} PAP. Alle Rechte vorbehalten.</p>
     </footer>
   </div>

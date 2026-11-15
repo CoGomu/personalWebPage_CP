@@ -14,4 +14,16 @@ const router = createRouter({
   ],
 })
 
+router.afterEach((_to, _from, next) => {
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      const scrollContainer = document.querySelector('.scroll-container')
+      if (scrollContainer) {
+        scrollContainer.scrollTop = 0
+      }
+    })
+  })
+  // next()
+})
+
 export default router

@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <!-- 1. Hero Section -->
-    <section class="flex items-center justify-center bg-gradient-light dark:bg-gradient-dark">
+    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
       <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-5 items-center">
         <div class="text-center md:text-left col-span-3">
-          <p class="text-lg text-secondary dark:text-secondary mb-4">
+          <p class="text-lg text-secondary dark:text-secondary-dark mb-4">
             Führungskräfte stehen täglich vor anspruchsvollen Entscheidungen, komplexen Situationen und
             herausfordernden Gesprächen. Erfolg entsteht nicht auf perfekten Wegen, sondern im bewussten
             Umgang mit Steigungen, Kurven und Gegenwind.
@@ -28,7 +28,7 @@
     <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
       <div class="max-w-4xl mx-auto px-6 py-20 text-center">
         <h2 class="text-3xl font-bold text-primary dark:text-primary-dark mb-4">Führen wie auf einem anspruchsvollen Bergweg</h2>
-        <p class="text-lg text-secondary dark:text-secondary mb-4 ">
+        <p class="text-lg text-secondary dark:text-secondary-dark mb-4 ">
           Das Bild zeigt einen anspruchsvollen Weg entlang einer Felswand*. Der Untergrund ist uneben,
           die Strecke verlangt Konzentration, Ausdauer und die Fähigkeit, sich laufend auf neue
           Situationen einzustellen.
@@ -140,7 +140,7 @@
     -->
 
     <!-- Footer -->
-    <footer class="text-center py-6 text-secondary dark:text-secondary text-sm border-t border-border dark:border-border-dark">
+    <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm border-t border-border dark:border-border-dark">
       <p>&copy; {{ currentYear }} PAP. Alle Rechte vorbehalten.</p>
     </footer>
   </div>

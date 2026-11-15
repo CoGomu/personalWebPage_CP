@@ -1,14 +1,14 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <!-- 1. Introduction Section -->
-    <section class="flex items-center justify-center bg-gradient-light dark:bg-gradient-dark">
+    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
       <div class="max-w-6xl mx-auto px-6 py-20">
         <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <!-- Text Content (Left) -->
           <div class="flex-1 text-center md:text-left">
             <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-6">Über mich</h1>
-            <p class="font-bold text-lg text-secondary dark:text-secondary leading-relaxed mb-4">Mag. Christian Peinbauer</p>
-            <p class="text-lg text-secondary dark:text-secondary leading-relaxed">
+            <p class="font-bold text-lg text-secondary dark:text-secondary-dark leading-relaxed mb-4">Mag. Christian Peinbauer</p>
+            <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed">
               Mein beruflicher Weg verbindet mehr als drei Jahrzehnte Erfahrung in Führung,
               Gesundheitswesen, Ausbildung und Organisationsentwicklung.
               Die Arbeit mit Menschen bildet seit Beginn meines Berufslebens den Mittelpunkt meines
@@ -43,12 +43,12 @@
           <div class="bg-bg dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">2012-2026</p>
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Direktor der OÖ Gesundheits- und Krankenpflegeschulen Freistadt, Rohrbach und Schärding.</h3>
-            <p class="text-secondary dark:text-secondary">Gesamtverantwortung für Strategie, Personal, Organisation und Weiterentwicklung der Ausbildungsstandorte.</p>
+            <p class="text-secondary dark:text-secondary-dark">Gesamtverantwortung für Strategie, Personal, Organisation und Weiterentwicklung der Ausbildungsstandorte.</p>
           </div>
           <div class="bg-bg dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">2003 - 2012</p>
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildungskoordinator der Akademie für Fach-, Weiter- und Sonderausbildungen am Krankenhaus der Barmherzigen Schwestern</h3>
-            <p class="text-secondary dark:text-secondary">Description of your role and responsibilities placeholder.</p>
+            <p class="text-secondary dark:text-secondary-dark">Description of your role and responsibilities placeholder.</p>
           </div>
           <div class="bg-bg dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">1994 - 2002</p>
@@ -67,32 +67,32 @@
           <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Magister Pflegewissenschaft</h3>
             <p class="text-accent text-sm mb-2">UMIT</p>
-            <p class="text-secondary dark:text-secondary">Schwerpunkt Pädagogik</p>
+            <p class="text-secondary dark:text-secondary-dark">Schwerpunkt Pädagogik</p>
           </div>
           <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Universitätslehrgang für leitendes Pflegepersonal</h3>
             <p class="text-accent text-sm mb-2">JKU</p>
-            <p class="text-secondary dark:text-secondary">Details</p>
+            <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
           <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Universitätslehrgang für lehrendes Pflegepersonal</h3>
             <p class="text-accent text-sm mb-2">JKU</p>
-            <p class="text-secondary dark:text-secondary">Details</p>
+            <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
           <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Sonderausbildung Intensivpflege</h3>
             <p class="text-accent text-sm mb-2">Institution Name</p>
-            <p class="text-secondary dark:text-secondary">Details</p>
+            <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
           <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildung Gewaltfreie Kommunikation</h3>
             <p class="text-accent text-sm mb-2">Institution Name</p>
-            <p class="text-secondary dark:text-secondary">Details</p>
+            <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
           <div class="bg-surface dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildung Gewaltfreie Kommunikation</h3>
             <p class="text-accent text-sm mb-2">TODO ... Akademie</p>
-            <p class="text-secondary dark:text-secondary">Details</p>
+            <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
         </div>
       </div>
@@ -106,14 +106,14 @@
           <div class="border-l-4 border-accent pl-6 py-2">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-1">Standards der Intensivpflege</h3>
             <p class="text-accent text-sm mb-2">Springer Verlag,  1998</p>
-            <p class="text-secondary dark:text-secondary">
+            <p class="text-secondary dark:text-secondary-dark">
               <a href="https://link.springer.com/book/10.1007/978-3-7091-6459-4">https://link.springer.com/book/10.1007/978-3-7091-6459-4</a>
             </p>
           </div>
           <div class="border-l-4 border-accent pl-6 py-2">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-1">Schulung und Coaching in der Gesundheits- und Krankenpflege</h3>
             <p class="text-accent text-sm mb-2">Springer Verlag, 2003</p>
-            <p class="text-secondary dark:text-secondary">
+            <p class="text-secondary dark:text-secondary-dark">
               <a href="https://link.springer.com/book/10.1007/978-3-7091-6031-2">https://link.springer.com/book/10.1007/978-3-7091-6031-2</a>
             </p>
           </div>
@@ -122,7 +122,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-6 text-secondary dark:text-secondary text-sm border-t border-border dark:border-border-dark">
+    <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm border-t border-border dark:border-border-dark">
       <p>&copy; {{ currentYear }} PAP. Alle Rechte vorbehalten.</p>
     </footer>
   </div>

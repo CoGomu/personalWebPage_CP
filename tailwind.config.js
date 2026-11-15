@@ -6,39 +6,42 @@ export default {
     extend: {
       colors: {
         bg: {
-          DEFAULT: '#ffffff',
-          dark: '#0f0f0f',
+          // DEFAULT: '#ffffff',
+          DEFAULT: '#ebf2fa',
+          // dark: '#0f0f0f',
+          dark: '#1a1a1a',
         },
         surface: {
-          DEFAULT: '#ffffff',
+          // DEFAULT: '#ffffff',
+          DEFAULT: '#ebf2fa',
           dark: '#1a1a1a',
         },
         surfaceHover: {
-          DEFAULT: '#f5f5f5',
+          // DEFAULT: '#f5f5f5',
+          DEFAULT: '#ebf2fa',
           dark: '#222222',
         },
         border: {
-          DEFAULT: '#e5e5e5',
+          DEFAULT: '#ebf2fa',
           dark: '#2a2a2a',
         },
         primary: {
           // DEFAULT: '#1a1a1a',
           DEFAULT: '#14467b',
-          dark: '#f0f0f0',
+          // dark: '#f0f0f0',
+          dark: '#ffffff',
         },
         primaryDark: {
           DEFAULT: '#1a1a1a',
-          dark: '#f0f0f0',
+          dark: '#ffffff',
         },
         secondary: {
           // DEFAULT: '#6b7280',
           DEFAULT: '#14467b',
-          dark: '#a0a0a0',
+          dark: '#ffffff',
         },
         accent: '#818cf8',
         accentHover: '#6366f1',
-        goldbeige: '#d8c3a5',
-        lightgoldbeige: '#FFFFE0',
       },
       // fontFamily: {
       //   sans: ['Inter', 'system-ui', 'sans-serif'],
@@ -57,10 +60,6 @@ export default {
       borderRadius: {
         lg: '0.75rem',
         xl: '1rem',
-      },
-      backgroundImage: {
-        'gradient-dark': 'linear-gradient(to bottom right, #0f0f0f, #1a1a1a)',
-        'gradient-light': 'linear-gradient(to bottom right, #ffffff, #f5f5f5)',
       },
     },
   },
