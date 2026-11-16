@@ -5,19 +5,20 @@
       <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-5 items-center">
         <div class="text-center md:text-left col-span-3">
           <div class="text-3xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-6">
-            <h1 class="">Christian Peinbauer, </h1>
             <h1 class="">Führungskräfte-Coaching</h1>
           </div>
           <p class="text-lg text-secondary dark:text-secondary-dark mb-4">
             Führungskräfte stehen täglich vor anspruchsvollen Entscheidungen, komplexen Situationen und
             herausfordernden Gesprächen. Erfolg entsteht nicht auf perfekten Wegen, sondern im bewussten
             Umgang mit Steigungen, Kurven und Gegenwind.
+            Wir können den Weg nicht immer verändern. Aber wir können entscheiden, wie wir ihn
+            fahren.
             Ich begleite Führungskräfte dabei, Klarheit zu gewinnen, wirksam zu handeln und ihren eigenen
             Führungsstil weiterzuentwickeln.
           </p>
           <h1 class="text-2xl md:text-2xl font-bold text-primary dark:text-primary-dark mb-4">
-            "Führung bedeutet nicht, den Weg zu ebnen. <br>
-            Sondern zu antizipieren und zu entscheiden, mit welchem Rhythmus man ihn fährt."
+            "Führung bedeutet nicht, den Weg zu ebnen, <br>
+            sondern zu antizipieren und zu entscheiden, mit welchem Rhythmus man ihn fährt."
           </h1>
         </div>
         <div class="flex justify-center md:justify-end col-span-2">
@@ -27,8 +28,7 @@
         </div>
       </div>
     </section>
-
-    <!-- 2. Metaphor Section -->
+    <!-- 2. Metaphor Section
     <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
       <div class="max-w-4xl mx-auto px-6 py-20 text-center">
         <h2 class="text-3xl font-bold text-primary dark:text-primary-dark mb-4">Führen wie auf einem anspruchsvollen Bergweg</h2>
@@ -65,7 +65,7 @@
         </div>
       </div>
     </section>
-
+-->
     <!-- 3. Offering Section
     <section class="flex items-center justify-center bg-bg dark:bg-bg-dark">
       <div class="max-w-6xl mx-auto px-6 py-20 text-center">

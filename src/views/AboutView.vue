@@ -9,8 +9,8 @@
             <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-6">Über mich</h1>
             <p class="font-bold text-lg text-secondary dark:text-secondary-dark leading-relaxed mb-4">Mag. Christian Peinbauer</p>
             <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed">
-              Mein beruflicher Weg verbindet mehr als drei Jahrzehnte Erfahrung in Führung,
-              Gesundheitswesen, Ausbildung und Organisationsentwicklung.
+              Mein beruflicher Weg verbindet mehr als vier Jahrzehnte Erfahrung im Gesundheitswesen, in der Führung,
+              in der Ausbildung und Organisationsentwicklung.
               Die Arbeit mit Menschen bildet seit Beginn meines Berufslebens den Mittelpunkt meines
               Handelns.
               Ich habe erlebt, wie Führung Motivation entstehen lassen kann. Und wie fehlende Orientierung
@@ -39,17 +39,30 @@
           <div class="bg-white dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">2012-2026</p>
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Direktor der OÖ Gesundheits- und Krankenpflegeschulen Freistadt, Rohrbach und Schärding.</h3>
-            <p class="text-secondary dark:text-secondary-dark">Gesamtverantwortung für Strategie, Personal, Organisation und Weiterentwicklung der Ausbildungsstandorte.</p>
+            <ul class="list-disc list-outside pl-10">
+              <li>Gesamtverantwortung für die strategische, organisatorische und personelle Führung von 3 Gesundheits- und Krankenpflegeschulen </li>
+              <li>Sicherstellung der Ausbildungsqualität und Weiterentwicklung der Curricula</li>
+              <li>Führung und Entwicklung von Lehr- und Verwaltungspersonal</li>
+              <li>Erstellen und Kontrolle des Budgets und der Stellenpläne der einzelnen Schulen im Verbund</li>
+            </ul>
           </div>
           <div class="bg-white dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">2003 - 2012</p>
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildungskoordinator der Akademie für Fach-, Weiter- und Sonderausbildungen am Krankenhaus der Barmherzigen Schwestern</h3>
-            <p class="text-secondary dark:text-secondary-dark">Description of your role and responsibilities placeholder.</p>
+            <ul class="list-disc list-outside pl-10">
+              <li>Planung, Organisation und Koordination von Fach- und Sonderausbildungen</li>
+              <li>Entwicklung von Ausbildungskonzepten und Qualitätsstandards</li>
+              <li>Lehr- und Vortragstätigkeit im Bereich Pflege, Management und Fehlermanagement</li>
+            </ul>
           </div>
           <div class="bg-white dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">1994 - 2002</p>
-            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Stationsleitung und stellvertretende Stationsleitung einer operativen Intensivstation.</h3>
-            <p class="text-secondary dark:text-secondary">Description of your role and responsibilities placeholder.</p>
+            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Stationsleitung und stellvertretende Stationsleitung and der operativen Intensivstation Bamherzige Schwestern Linz</h3>
+            <ul class="list-disc list-outside pl-10">
+              <li>Fachliche und organisatorische Leitung einer operativen Intensivstation</li>
+              <li>Personalführung, Dienstplanung und Qualitätssicherung</li>
+              <li>Budgetverantwortung: Erstellung und Umsetzung des Budget</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -62,33 +75,36 @@
         <div class="grid md:grid-cols-2 gap-6">
           <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Magister Pflegewissenschaft</h3>
-            <p class="text-accent text-sm mb-2">UMIT</p>
             <p class="text-secondary dark:text-secondary-dark">Schwerpunkt Pädagogik</p>
+            <p class="text-accent text-sm mb-2">UMIT</p>
           </div>
           <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Universitätslehrgang für leitendes Pflegepersonal</h3>
             <p class="text-accent text-sm mb-2">JKU</p>
-            <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
           <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Universitätslehrgang für lehrendes Pflegepersonal</h3>
             <p class="text-accent text-sm mb-2">JKU</p>
-            <p class="text-secondary dark:text-secondary-dark">Details</p>
           </div>
           <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
-            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Sonderausbildung Intensivpflege</h3>
-            <p class="text-accent text-sm mb-2">Institution Name</p>
-            <p class="text-secondary dark:text-secondary-dark">Details</p>
+            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Bereichsleitungsausbildung - Homacon</h3>
+            <p class="text-accent text-sm mb-2">KH Bamherzige Schwestern Linz</p>
           </div>
           <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
-            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildung Gewaltfreie Kommunikation</h3>
-            <p class="text-accent text-sm mb-2">Institution Name</p>
-            <p class="text-secondary dark:text-secondary-dark">Details</p>
+            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Sonderausbildung für leitendes Pflegepersonal</h3>
+            <p class="text-accent text-sm mb-2">Landesfrauen- und Kinderklinik Linz</p>
           </div>
           <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
-            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildung Gewaltfreie Kommunikation</h3>
-            <p class="text-accent text-sm mb-2">TODO ... Akademie</p>
-            <p class="text-secondary dark:text-secondary-dark">Details</p>
+            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Sonderausbildung für Anästesie und Intensivpflege</h3>
+            <p class="text-accent text-sm mb-2">AKH Linz</p>
+          </div>
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
+            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Trainer für gewaltfreie Kommunikation - Marshall B. Rosenberg</h3>
+            <p class="text-accent text-sm mb-2">Christan-Rüther Wien</p>
+          </div>
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
+            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Lehrwart für Speedskating</h3>
+            <p class="text-accent text-sm mb-2">Bundessportakademie Linz</p>
           </div>
         </div>
       </div>

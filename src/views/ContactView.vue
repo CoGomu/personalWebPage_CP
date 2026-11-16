@@ -18,9 +18,6 @@
               Ich freue mich auf ein persönliches Kennenlernen.
               Lassen Sie uns ins Gespräch kommen!
             </p>
-            <p class="text-lg font-bold text-center p-10 text-secondary dark:text-secondary-dark leading-relaxed">
-              Lassen Sie uns ins Gespräch kommen!
-            </p>
 
           </div>
         </div>
