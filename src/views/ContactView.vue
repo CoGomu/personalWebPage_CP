@@ -4,15 +4,31 @@
     <main class="flex-col flex-auto">
       <!-- 1. Headline Section -->
       <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border-dark dark:border-border-dark">
-        <div class="max-w-4xl mx-auto px-6 py-12 text-center">
-          <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
-            Sie stehen vor einer wichtigen Führungsentscheidung, einer Veränderung oder möchten Ihre
-            Führungskompetenz gezielt weiterentwickeln?
-            Ich freue mich auf ein persönliches Kennenlernen.
-          </h1>
-          <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed">
-            Lassen Sie uns ins Gespräch kommen!
-          </p>
+        <div class="max-w-4xl mx-auto px-6 py-12">
+          <div class="flex-1 text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
+
+              Kontakt
+            </h1>
+            <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed">
+              Sie stehen vor einer wichtigen Führungsentscheidung, einer Veränderung oder möchten Ihre
+              Führungskompetenz gezielt weiterentwickeln?
+            </p>
+            <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed">
+              Ich freue mich auf ein persönliches Kennenlernen.
+              Lassen Sie uns ins Gespräch kommen!
+            </p>
+            <p class="text-lg font-bold text-center p-10 text-secondary dark:text-secondary-dark leading-relaxed">
+              Lassen Sie uns ins Gespräch kommen!
+            </p>
+
+          </div>
+        </div>
+
+        <div class="p-10 flex justify-center md:justify-end col-span-2">
+          <div class=" w-80 h-96 bg-border dark:border-border-dark rounded-xl overflow-hidden">
+            <img src="/images/Contact.jpg" alt="Portrait" class="w-full h-full scale-[1] object-cover [object-position:50%_75%]" />
+          </div>
         </div>
       </section>
 
@@ -43,7 +59,7 @@
 
     <!-- Footer -->
     <footer class="mt-auto text-center py-6 text-secondary dark:text-secondary-dark text-sm border-t border-border dark:border-border-dark bg-surface dark:bg-surface-dark">
-      <p>&copy; {{ currentYear }} PAP. Alle Rechte vorbehalten.</p>
+      <p>&copy; {{ currentYear }} Christian Peinbauer. Alle Rechte vorbehalten.</p>
     </footer>
   </div>
 </template>

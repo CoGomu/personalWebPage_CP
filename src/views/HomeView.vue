@@ -11,9 +11,9 @@
             Ich begleite Führungskräfte dabei, Klarheit zu gewinnen, wirksam zu handeln und ihren eigenen
             Führungsstil weiterzuentwickeln.
           </p>
-          <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
-            Führung bedeutet nicht, den Weg zu ebnen. <br>
-            Sondern zu antizipieren und zu entscheiden, mit welchem Rhythmus man ihn fährt.
+          <h1 class="text-2xl md:text-2xl font-bold text-primary dark:text-primary-dark mb-4">
+            "Führung bedeutet nicht, den Weg zu ebnen. <br>
+            Sondern zu antizipieren und zu entscheiden, mit welchem Rhythmus man ihn fährt."
           </h1>
         </div>
         <div class="flex justify-center md:justify-end col-span-2">
@@ -53,7 +53,7 @@
         </p>
         <div class="p-5">
           <router-link
-            to="/services"
+            to="/services#top"
             class="inline-block px-8 py-3 bg-accent text-white font-medium rounded-lg hover:bg-accent-hover transition-colors duration-200 shadow-card dark:shadow-card-dark"
           >
             Zu meinem Angebot
@@ -141,7 +141,7 @@
 
     <!-- Footer -->
     <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm border-t border-border dark:border-border-dark">
-      <p>&copy; {{ currentYear }} PAP. Alle Rechte vorbehalten.</p>
+      <p>&copy; {{ currentYear }} Christian Peinbauer. Alle Rechte vorbehalten.</p>
     </footer>
   </div>
 </template>

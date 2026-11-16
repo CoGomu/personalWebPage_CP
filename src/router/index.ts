@@ -12,18 +12,15 @@ const router = createRouter({
     { path: '/services', component: ServicesView },
     { path: '/contact', component: ContactView },
   ],
-})
-
-router.afterEach((_to, _from, next) => {
-  requestAnimationFrame(() => {
-    requestAnimationFrame(() => {
-      const scrollContainer = document.querySelector('.scroll-container')
-      if (scrollContainer) {
-        scrollContainer.scrollTop = 0
-      }
-    })
-  })
-  // next()
+  scrollBehavior(_to, _from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    }
+    if (_to.hash) {
+      return { el: _to.hash, behavior: 'smooth' }
+    }
+    return { top: 0 }
+  },
 })
 
 export default router

@@ -14,21 +14,21 @@
           class="text-sm font-medium transition-colors duration-200 relative after:absolute after:bottom-[-13px] after:left-0 after:h-[2px] after:bg-accent after:transition-all after:duration-200 after:content-[''] hover:text-accent"
           :class="$route.path === '/about' ? 'text-accent after:w-full' : 'text-secondary dark:text-secondary-dark after:w-0 hover:after:w-full'"
         >
-          About
+          Über mich
         </router-link>
         <router-link
           to="/services"
           class="text-sm font-medium transition-colors duration-200 relative after:absolute after:bottom-[-13px] after:left-0 after:h-[2px] after:bg-accent after:transition-all after:duration-200 after:content-[''] hover:text-accent"
           :class="$route.path === '/services' ? 'text-accent after:w-full' : 'text-secondary dark:text-secondary-dark after:w-0 hover:after:w-full'"
         >
-          Services
+          Angebot
         </router-link>
         <router-link
           to="/contact"
           class="text-sm font-medium transition-colors duration-200 relative after:absolute after:bottom-[-13px] after:left-0 after:h-[2px] after:bg-accent after:transition-all after:duration-200 after:content-[''] hover:text-accent"
           :class="$route.path === '/contact' ? 'text-accent after:w-full' : 'text-secondary dark:text-secondary-dark after:w-0 hover:after:w-full'"
         >
-          Contact
+          Kontakt
         </router-link>
         <button
           @click="$emit('toggle')"

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterView, useRoute } from 'vue-router'
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch, nextTick } from 'vue'
 import Navbar from './components/Navbar.vue'
 import { useDarkMode } from './composables/useDarkMode'
 
@@ -15,10 +15,32 @@ function scrollToTop() {
   }
 }
 
+function scrollToHash(hash: string) {
+  nextTick(() => {
+    const el = document.querySelector(hash)
+    if (el && scrollContainer.value) {
+      const targetTop = el.getBoundingClientRect().top + scrollContainer.value.scrollTop - scrollContainer.value.getBoundingClientRect().top
+      scrollContainer.value.scrollTo({ top: targetTop, behavior: 'smooth' })
+    }
+  })
+}
+
 function switchView(path: string) {
   viewKey.value++
   scrollToTop()
 }
+
+watch(
+  () => route.fullPath,
+  (newPath) => {
+    const hash = newPath.split('#')[1]
+    if (hash) {
+      scrollToHash(`#${hash}`)
+    } else {
+      scrollToTop()
+    }
+  }
+)
 
 onMounted(() => {
   scrollToTop()

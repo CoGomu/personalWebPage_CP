@@ -21,14 +21,10 @@
             </p>
           </div>
           <!-- Image Placeholder (Right) -->
-          <div class="flex-shrink-0 w-full md:w-1/3 aspect-square max-w-md">
-            <div class="w-full h-full bg-gray-200 dark:bg-gray-700 rounded-2xl flex items-center justify-center border-2 border-dashed border-gray-300 dark:border-gray-600">
-              <div class="text-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto text-gray-400 dark:text-gray-500 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <p class="text-gray-500 dark:text-gray-400 text-sm">Bild hier einfügen</p>
-              </div>
+
+          <div class="flex justify-center md:justify-end col-span-2">
+            <div class=" w-80 h-96 bg-border dark:border-border-dark rounded-xl overflow-hidden">
+              <img src="/images/About.jpg" alt="Hero portrait" class="w-full h-full scale-[1] object-cover [object-position:50%_75%]" />
             </div>
           </div>
         </div>
@@ -123,7 +119,7 @@
 
     <!-- Footer -->
     <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm border-t border-border dark:border-border-dark">
-      <p>&copy; {{ currentYear }} PAP. Alle Rechte vorbehalten.</p>
+      <p>&copy; {{ currentYear }} Christian Peinbauer. Alle Rechte vorbehalten.</p>
     </footer>
   </div>
 </template>
