@@ -4,6 +4,10 @@
     <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
       <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-5 items-center">
         <div class="text-center md:text-left col-span-3">
+          <div class="text-3xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-6">
+            <h1 class="">Christian Peinbauer, </h1>
+            <h1 class="">Führungskräfte-Coaching</h1>
+          </div>
           <p class="text-lg text-secondary dark:text-secondary-dark mb-4">
             Führungskräfte stehen täglich vor anspruchsvollen Entscheidungen, komplexen Situationen und
             herausfordernden Gesprächen. Erfolg entsteht nicht auf perfekten Wegen, sondern im bewussten
