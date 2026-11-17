@@ -38,7 +38,7 @@
         <div class="space-y-6">
           <div class="bg-white dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">2012-2026</p>
-            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Direktor der OÖ Gesundheits- und Krankenpflegeschulen Freistadt, Rohrbach und Schärding.</h3>
+            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Direktor der OÖG Gesundheits- und Krankenpflegeschulen Freistadt, Rohrbach und Schärding.</h3>
             <ul class="list-disc list-outside pl-10">
               <li>Gesamtverantwortung für die strategische, organisatorische und personelle Führung von 3 Gesundheits- und Krankenpflegeschulen </li>
               <li>Sicherstellung der Ausbildungsqualität und Weiterentwicklung der Curricula</li>
@@ -48,7 +48,7 @@
           </div>
           <div class="bg-white dark:bg-bg-dark p-6 rounded-xl shadow-card dark:shadow-card-dark">
             <p class="text-accent text-sm font-semibold mb-2">2003 - 2012</p>
-            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildungskoordinator der Akademie für Fach-, Weiter- und Sonderausbildungen am Krankenhaus der Barmherzigen Schwestern</h3>
+            <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Ausbildungskoordinator der Akademie für Fach-, Weiter- und Sonderausbildungen am Krankenhaus der Barmherzigen Schwestern Linz</h3>
             <ul class="list-disc list-outside pl-10">
               <li>Planung, Organisation und Koordination von Fach- und Sonderausbildungen</li>
               <li>Entwicklung von Ausbildungskonzepten und Qualitätsstandards</li>

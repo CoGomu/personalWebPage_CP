@@ -7,7 +7,7 @@
           Mein Angebot <br>
         </h1>
         <h2 class="text-4xl md:text-4xl">
-          Klar - lösungsorientiert - wertschätzend. <br>
+          Klar - lösungsorientiert - wertschätzend<br>
         </h2>
 
         <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed pt-5">
@@ -76,7 +76,7 @@
     <!-- 3. Process Section -->
     <section class="flex items-center justify-center bg-bg dark:bg-bg-dark">
       <div class="max-w-4xl mx-auto px-6 py-20 text-left">
-        <h2 class="text-3xl font-bold text-center text-primary dark:text-primary-dark mb-8">Grober Ablauf des Coachings</h2>
+        <h2 class="text-3xl font-bold text-center text-primary dark:text-primary-dark mb-8">Ablauf des Coachings</h2>
         <div class="text-lg space-y-2">
           <!-- Step 1 -->
           <div class="relative flex items-start gap-6 p-1 rounded-lg bg-surface dark:bg-surface-dark hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
