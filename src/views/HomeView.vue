@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div class="flex flex-col min-h-[calc(100vh-60px)]">
     <!-- 1. Hero Section -->
     <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
       <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-5 items-center">
@@ -28,6 +28,7 @@
         </div>
       </div>
     </section>
+    <div class="flex-grow"></div>
     <!-- 2. Metaphor Section
     <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
       <div class="max-w-4xl mx-auto px-6 py-20 text-center">

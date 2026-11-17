@@ -7,16 +7,15 @@
         <div class="max-w-4xl mx-auto px-6 py-12">
           <div class="flex-1 text-center md:text-left">
             <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
-
               Kontakt
             </h1>
             <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed">
               Sie stehen vor einer wichtigen Führungsentscheidung, einer Veränderung oder möchten Ihre
               Führungskompetenz gezielt weiterentwickeln?
             </p>
-            <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed">
-              Ich freue mich auf ein persönliches Kennenlernen.
-              Lassen Sie uns ins Gespräch kommen!
+            <p class="pt-5 text-lg text-secondary dark:text-secondary-dark leading-relaxed">
+              Ich freue mich auf ein persönliches Kennenlernen. <br>
+              <!-- Lassen Sie uns ins Gespräch kommen! -->
             </p>
 
           </div>
