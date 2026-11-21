@@ -1,42 +1,44 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <!-- 1. Headline Section -->
-    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border-dark dark:border-border-dark">
-      <div id="top" class="max-w-4xl mx-auto px-6 py-20">
-        <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
-          Mein Angebot <br>
-        </h1>
-        <h2 class="text-4xl md:text-4xl">
-          Klar - lösungsorientiert - wertschätzend<br>
-        </h2>
+    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border dark:border-border-dark">
+      <div class="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-8">
+        <div id="top" class="flex-1">
+          <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
+            Mein Angebot <br>
+          </h1>
+          <h2 class="text-4xl md:text-4xl">
+            Klar - lösungsorientiert - wertschätzend<br>
+          </h2>
 
-        <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed pt-5">
-          Mein Coaching basiert auf einem systemisch-konstruktivistischen Ansatz. <br>
-          Ich begleite Menschen dabei,
-        </p>
-        <ul class="text-lg p-5 px-10 list-disc mx-auto text-left">
-          <li>neue Perspektiven zu entwickeln</li>
-          <li>vorhandene Ressourcen sichtbar zu machen</li>
-          <li>Klarheit über Ziele und Prioritäten zu gewinnen</li>
-          <li>individuelle Lösungen zu erarbeiten</li>
-        </ul>
-        <p class="text-lg">
-          Dabei verstehe ich mich als neutraler Sparringspartner.
-          Nicht vorgefertigte Antworten stehen im Mittelpunkt,
-          sondern tragfähige Lösungen,
-          die zu Ihrer Persönlichkeit, Ihrer Rolle und Ihrer Situation passen.
-        </p>
-      </div>
+          <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed pt-5">
+            Mein Coaching basiert auf einem systemisch-konstruktivistischen Ansatz. <br>
+            Ich begleite Menschen dabei,
+          </p>
+          <ul class="text-lg p-5 px-10 list-disc mx-auto text-left">
+            <li>neue Perspektiven zu entwickeln</li>
+            <li>vorhandene Ressourcen sichtbar zu machen</li>
+            <li>Klarheit über Ziele und Prioritäten zu gewinnen</li>
+            <li>individuelle Lösungen zu erarbeiten</li>
+          </ul>
+          <p class="text-lg">
+            Dabei verstehe ich mich als neutraler Sparringspartner.
+            Nicht vorgefertigte Antworten stehen im Mittelpunkt,
+            sondern tragfähige Lösungen,
+            die zu Ihrer Persönlichkeit, Ihrer Rolle und Ihrer Situation passen.
+          </p>
+        </div>
 
-      <div class="flex justify-center md:justify-end col-span-2">
-        <div class=" w-80 h-96 bg-border dark:border-border-dark rounded-xl overflow-hidden">
-          <img src="/images/Services.jpg" alt="Portrait" class="w-full h-full scale-[1] object-cover [object-position:50%_75%]" />
+        <div class="flex justify-center md:justify-end col-span-2">
+          <div class=" w-80 h-96 bg-border dark:border-border-dark rounded-xl overflow-hidden">
+            <img src="/images/Services.jpg" alt="Portrait" class="w-full h-full scale-[1] object-cover [object-position:50%_75%]" />
+          </div>
         </div>
       </div>
     </section>
 
     <!-- 2. Services List Section -->
-    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border-dark dark:border-border-dark">
+    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border dark:border-border-dark">
       <div class="text-lg max-w-6xl mx-auto px-6 py-20 text-center">
         <!-- <h2 class="text-3xl font-bold text-primary dark:text-primary-dark mb-8">Was ich ihnen anbiete:</h2> -->
         <div class="grid md:grid-cols-2 gap-8">
@@ -132,9 +134,9 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm border-t border-border dark:border-border-dark">
+<!--     <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm">
       <p>&copy; {{ currentYear }} Christian Peinbauer. Alle Rechte vorbehalten.</p>
-    </footer>
+    </footer> -->
   </div>
 </template>
 

@@ -22,8 +22,8 @@ export default {
           dark: '#222222',
         },
         border: {
-          DEFAULT: '#ebf2fa',
-          dark: '#2a2a2a',
+          DEFAULT: '#2a2a2a',
+          dark: '#ebf2fa',
         },
         primary: {
           // DEFAULT: '#1a1a1a',

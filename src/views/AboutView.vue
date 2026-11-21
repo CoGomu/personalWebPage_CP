@@ -1,13 +1,13 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <!-- 1. Introduction Section -->
-    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border-dark dark:border-border-dark">
+    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border dark:border-border-dark">
       <div class="max-w-6xl mx-auto px-6 py-20">
         <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <!-- Text Content (Left) -->
-          <div class="flex-1 text-center md:text-left">
+          <div class="flex-1 text-left md:text-left">
             <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-6">Über mich</h1>
-            <p class="font-bold text-lg text-secondary dark:text-secondary-dark leading-relaxed mb-4">Mag. Christian Peinbauer</p>
+            <p class="font-bold  text-lg text-secondary dark:text-secondary-dark leading-relaxed mb-4">Mag. Christian Peinbauer</p>
             <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed">
               Mein beruflicher Weg verbindet mehr als vier Jahrzehnte Erfahrung im Gesundheitswesen, in der Führung,
               in der Ausbildung und Organisationsentwicklung.
@@ -32,7 +32,7 @@
     </section>
 
     <!-- 2. Professional Background Section -->
-    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border-dark dark:border-border-dark">
+    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border dark:border-border-dark">
       <div class="max-w-4xl mx-auto px-6 py-20">
         <h2 class="text-3xl font-bold text-primary dark:text-primary-dark mb-8 text-center">KURZVITA</h2>
         <div class="space-y-6">
@@ -69,7 +69,7 @@
     </section>
 
     <!-- 3. Qualifications Section -->
-    <section class="flex items-center justify-center bg-bg dark:bg-bg-dark border-b border-border-dark dark:border-border-dark">
+    <section class="flex items-center justify-center bg-bg dark:bg-bg-dark border-b border-border dark:border-border-dark">
       <div class="max-w-4xl mx-auto px-6 py-20">
         <h2 class="text-3xl font-bold text-primary dark:text-primary-dark mb-8 text-center">Qualifikationen</h2>
         <div class="grid md:grid-cols-2 gap-6">
@@ -134,9 +134,9 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm border-t border-border dark:border-border-dark">
+    <!-- <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm">
       <p>&copy; {{ currentYear }} Christian Peinbauer. Alle Rechte vorbehalten.</p>
-    </footer>
+    </footer> -->
   </div>
 </template>
 

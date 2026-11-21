@@ -1,32 +1,32 @@
 <template>
   <div class="flex min-h-full flex-col">
     <!-- Main Content -->
-    <main class="flex-col flex-auto">
-      <!-- 1. Headline Section -->
-      <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border-dark dark:border-border-dark">
-        <div class="max-w-4xl mx-auto px-6 py-12">
-          <div class="flex-1 text-center md:text-left">
-            <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-4">
-              Kontakt
-            </h1>
+    <main class="flex-col">
+
+    <section class="flex items-center justify-center bg-surface dark:bg-surface-dark border-b border-border dark:border-border-dark">
+      <div class="max-w-6xl mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          <!-- Text Content (Left) -->
+          <div class="flex-1 text-left md:text-left">
+            <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-6">Kontakt</h1>
             <p class="text-lg text-secondary dark:text-secondary-dark leading-relaxed">
               Sie stehen vor einer wichtigen Führungsentscheidung, einer Veränderung oder möchten Ihre
               Führungskompetenz gezielt weiterentwickeln?
             </p>
             <p class="pt-5 text-lg text-secondary dark:text-secondary-dark leading-relaxed">
               Ich freue mich auf ein persönliches Kennenlernen. <br>
-              <!-- Lassen Sie uns ins Gespräch kommen! -->
             </p>
+          </div>
+          <!-- Image Placeholder (Right) -->
 
+          <div class="flex justify-center md:justify-end col-span-2">
+            <div class=" w-80 h-96 bg-border dark:border-border-dark rounded-xl overflow-hidden">
+              <img src="/images/Contact.jpg" alt="Hero portrait" class="w-full h-full scale-[1] object-cover [object-position:50%_75%]" />
+            </div>
           </div>
         </div>
-
-        <div class="p-10 flex justify-center md:justify-end col-span-2">
-          <div class=" w-80 h-96 bg-border dark:border-border-dark rounded-xl overflow-hidden">
-            <img src="/images/Contact.jpg" alt="Portrait" class="w-full h-full scale-[1] object-cover [object-position:50%_75%]" />
-          </div>
-        </div>
-      </section>
+      </div>
+    </section>
 
       <!-- 2. Contact Details Section -->
       <section class="flex items-start justify-center bg-surface dark:bg-surface-dark">
@@ -54,9 +54,9 @@
     </main>
 
     <!-- Footer -->
-    <footer class="mt-auto text-center py-6 text-secondary dark:text-secondary-dark text-sm border-t border-border dark:border-border-dark bg-surface dark:bg-surface-dark">
+    <!-- <footer class="mt-auto text-center py-6 text-secondary dark:text-secondary-dark text-sm bg-surface dark:bg-surface-dark">
       <p>&copy; {{ currentYear }} Christian Peinbauer. Alle Rechte vorbehalten.</p>
-    </footer>
+    </footer> -->
   </div>
 </template>
 

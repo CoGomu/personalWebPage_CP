@@ -2,6 +2,7 @@
 import { RouterView, useRoute } from 'vue-router'
 import { ref, computed, onMounted, watch, nextTick } from 'vue'
 import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 import { useDarkMode } from './composables/useDarkMode'
 
 const { isDark, toggleDarkMode } = useDarkMode()
@@ -48,7 +49,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-screen flex flex-col bg-bg text-primary dark:bg-bg-dark dark:text-primary-dark transition-colors duration-300">
+  <div class="h-screen flex flex-col bg-bg text-primary dark:bg-bg-dark dark:text-primary-dark transition-colors duration-300 overflow-x-hidden">
     <Navbar :is-dark="isDark" @toggle="toggleDarkMode" />
 
     <div ref="scrollContainer" class="flex-1 min-h-0 overflow-y-auto">
@@ -56,5 +57,7 @@ onMounted(() => {
         <RouterView :key="viewKey" />
       </div>
     </div>
+
+    <Footer />
   </div>
 </template>

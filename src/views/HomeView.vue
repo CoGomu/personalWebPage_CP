@@ -2,9 +2,9 @@
   <div class="flex flex-col min-h-[calc(100vh-60px)]">
     <!-- 1. Hero Section -->
     <section class="flex items-center justify-center bg-surface dark:bg-surface-dark">
-      <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-5 items-center">
-        <div class="text-center md:text-left col-span-3">
-          <div class="text-3xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-6">
+      <div class="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-8">
+        <div class="flex-1">
+          <div class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-6">
             <h1 class="">Führungskräfte-Coaching</h1>
           </div>
           <p class="text-lg text-secondary dark:text-secondary-dark mb-4">
@@ -16,13 +16,13 @@
             Ich begleite Führungskräfte dabei, Klarheit zu gewinnen, wirksam zu handeln und ihren eigenen
             Führungsstil weiterzuentwickeln.
           </p>
-          <h1 class="text-2xl md:text-2xl font-bold text-primary dark:text-primary-dark mb-4">
+          <h1 class="text-2xl text-center md:text-2xl font-bold text-primary dark:text-primary-dark mb-4">
             "Führung bedeutet nicht, den Weg zu ebnen, <br>
             sondern zu antizipieren und zu entscheiden, mit welchem Rhythmus man ihn fährt."
           </h1>
         </div>
-        <div class="flex justify-center md:justify-end col-span-2">
-          <div class=" w-80 h-96 bg-border dark:border-border-dark rounded-xl overflow-hidden">
+        <div class="flex justify-center">
+          <div class="w-80 h-96 bg-border dark:border-border-dark rounded-xl overflow-hidden">
             <img src="/images/hero-portrait.jpg" alt="Hero portrait" class="w-full h-full scale-[1.3] object-cover [object-position:50%_75%]" />
           </div>
         </div>
@@ -145,9 +145,9 @@
     -->
 
     <!-- Footer -->
-    <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm border-t border-border dark:border-border-dark">
+    <!-- <footer class="text-center py-6 text-secondary dark:text-secondary-dark text-sm">
       <p>&copy; {{ currentYear }} Christian Peinbauer. Alle Rechte vorbehalten.</p>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
