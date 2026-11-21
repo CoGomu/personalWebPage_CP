@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <!-- 1. Header Section -->
-    <section class="flex text-left bg-surface dark:bg-surface-dark border-b border-border dark:border-border-dark">
+    <section class="flex text-left bg-surface dark:bg-surface-dark">
       <div class="max-w-6xl mx-auto px-6 py-20">
         <h1 class="text-4xl md:text-5xl font-bold text-primary dark:text-primary-dark mb-6">Impressum</h1>
         <p class="text-lg ml-5 text-secondary dark:text-secondary-dark">
