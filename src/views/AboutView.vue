@@ -100,7 +100,7 @@
           </div>
           <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Trainer für gewaltfreie Kommunikation - Marshall B. Rosenberg</h3>
-            <p class="text-accent text-sm mb-2">Christan-Rüther Wien</p>
+            <p class="text-accent text-sm mb-2">Christian-Rüther Wien</p>
           </div>
           <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-card dark:shadow-card-dark hover:shadow-card-hover dark:hover:shadow-card-dark transition-shadow duration-200">
             <h3 class="text-xl font-semibold text-primary dark:text-primary-dark mb-2">Lehrwart für Speedskating</h3>
